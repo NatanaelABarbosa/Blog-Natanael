@@ -1,0 +1,102 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header, footer, .error_message {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.error_message {
+    background-color: red;
+}
+
+header a {
+    position: fixed;
+    left: 93%;
+    top: 18px;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Estilos específicos para a lista de postagens */
+.post-list {
+    margin-bottom: 2rem;
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.post a {
+    color: #0074d9;
+    text-decoration: none;
+}
+
+.post img {
+    width: 240px;
+    align-self: center;
+}
+
+.actions {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.actions a {
+    color: darkblue;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+/* Estilos para o formulário de adicionar postagem */
+.add-post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+}
+
+.add-post__title {
+    margin-bottom: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form__title {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.form__submit {
+    padding: 0.75em;
+}
